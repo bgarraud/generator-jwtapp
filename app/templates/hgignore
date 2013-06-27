@@ -1,0 +1,56 @@
+syntax: glob
+
+build/
+coverage/
+node_modules/
+release/
+
+docs/
+examples/
+test/
+
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.tmp
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+ 
+# Dreamweaver added files
+_notes
+dwsync.xml
+ 
+# Komodo
+*.komodoproject
+.komodotools
+
+# Flash builder
+.actionScriptProperties
+
+# Folders to ignore
+.svn
+.CVS
+intermediate
+publish
+.idea
+ 
+# build script local files
+build/buildinfo.properties
+build/config/buildinfo.properties

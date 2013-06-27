@@ -1,0 +1,18 @@
+{
+  "name": "<%= _.slugify(appname) %>",
+  "version": "0.0.0",
+  "dependencies": {<% if (includeRequireJS) { %>
+    "requirejs": "~2.1.4",<% } %>
+    "modernizr": "~2.6.2",<% if (includeBackbone) { %>
+    "backbone-amd": "~1.0.0",
+    "underscore-amd": "~1.4.4",<% } else {%> 
+    "pathjs": "~0.8.4",<% } %>
+    "jquery": "~1.9.1",
+	
+    "normalize.scss": "~2.1.0",
+    "skeleton-scss": "git://github.com/bgarraud/Skeleton-scss.git",
+    "pure-scss": "git://github.com/bgarraud/pure.scss.git"
+        
+  },
+  "devDependencies": {}
+}
